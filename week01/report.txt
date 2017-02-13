@@ -1,0 +1,6 @@
+the task of week01
+1. Doing simple git command (pull, push, commit, add)
+2. Clone repository into local repository
+3. Commit directly via web browser 
+4. creating folder and file using CLI
+5. Using text editor

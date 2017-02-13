@@ -1,1 +1,5 @@
 #akhda_khairul_zadid
+
+the task from week00 
+1. create github account
+2. create os171 repository
