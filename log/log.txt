@@ -1,0 +1,6 @@
+w01-170213-15-PS-About: Add folder 
+w01-170213-16-PS-About: add file to sandbox
+w01-170213-16-PS-About: delete dummy file and add report.txt file to week00 directory
+w01-170213-16-PS-About: add file myExpectation.txt
+w01-170213-16-PS-About: edit my expectation description
+w01-170213-16-PS-About: add report to week01 directory
