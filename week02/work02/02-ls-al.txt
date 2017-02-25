@@ -1,0 +1,6 @@
+total 24
+drwxr-xr-x 2 root root 4096 Peb 25 11:51 .
+drwxr-xr-x 3 root root 4096 Peb 25 11:48 ..
+-rw-rw-r-- 1 root root 1612 Peb 25 11:43 00-toc.txt
+-rw-rw-r-- 1 root root 3158 Peb 25 11:43 01-public-osteam.txt
+-rw-r--r-- 1 root root    0 Peb 25 11:51 02-ls-al.txt
