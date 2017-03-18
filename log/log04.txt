@@ -1,0 +1,5 @@
+w04-170308-19-LR-About: Explanation about memory addressing, From : Lecturer
+w04-170308-20-LR-About: Explanation about Pointer , From : Lecturer
+w04-170311-10-PS-About: Global and local variable
+w04-170311-13-PS-About: Pointer
+w04-170311-14-PS-About: file i/o
