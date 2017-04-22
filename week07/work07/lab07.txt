@@ -1,0 +1,23 @@
+# Github Account: akhdakhz03
+# Github account : akhdakhz03
+03-readwrite.c
+penjelasan :
+program ini merupakan program yang mengimplementasikan proses sinkronisasi
+yang melibatkan dua buah proses yaitu writers dan readers
+terdapat 2 buah proses writers dan 3 buah readers yang mengakses memory secara bergantian
+pergantian tersebut ditentukan secara acak melalui fungsi sem_wait dan sem_post.
+05-balap.c
+program yang merupakan implementasi dari proses sinkronisasi
+terdapat 10 buah proses yang direpresentasikan dengan nama pembalap, setelah itu 
+program akan menampilkan pembalap mana yang akan mengeksekusi shared memory terlebih dahulu
+ditandai dengan pembalap ke-n juara 1. Ketika ada pembalap yang juara 1 maka tidak ada 
+pembalap lain yang dapat menjadi juara 1. Karena shared memory hanya dapat diakses oleh
+satu proses saja.
+critical section: 
+ketika pemanggilan startRead() yang merupakan sem_wait() dan startEnd() yang merupakan sem_post pada proses read.
+Serta pemanggilan startWrite() yang merupakan sem_wait() dan endWrite() yang merupakan sem_post pada proses write.
+
+
+Tujuan penggunaan mutex:
+memastikan bahwa shared memory resourced hanya dapat diakses oleh satu proses pada satu waktu.
+apabila tidak menggunakan mutex dapat mengakibatkan deadlock atau starvation.
