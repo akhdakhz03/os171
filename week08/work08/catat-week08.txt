@@ -1,0 +1,127 @@
+Script started on Sab 29 Apr 2017 10:41:54  WIB
+]0;akhda.khairul@CSLAB-1109-15: ~[01;32makhda.khairul@CSLAB-1109-15[00m:[01;34m~[00m$ /sbin/ifconfig 
+enp1s0    Link encap:Ethernet  HWaddr 64:00:6a:30:07:06  
+          inet addr:152.118.25.219  Bcast:152.118.25.255  Mask:255.255.255.0
+          inet6 addr: fe80::2799:2bd5:5be2:6b42/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:108539 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:14845 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:31851457 (31.8 MB)  TX bytes:1654702 (1.6 MB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:5158 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:5158 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1 
+          RX bytes:578090 (578.0 KB)  TX bytes:578090 (578.0 KB)
+
+wlp2s0    Link encap:Ethernet  HWaddr 44:1c:a8:32:4a:13  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+]0;akhda.khairul@CSLAB-1109-15: ~[01;32makhda.khairul@CSLAB-1109-15[00m:[01;34m~[00m$ Makef[K[K[K[K[K./01-cli[K[K[K[K[K[K[K[Kcd Downlow[Kads/
+]0;akhda.khairul@CSLAB-1109-15: ~/Downloads[01;32makhda.khairul@CSLAB-1109-15[00m:[01;34m~/Downloads[00m$ ls
+[0m[01;34makhda[0m
+]0;akhda.khairul@CSLAB-1109-15: ~/Downloads[01;32makhda.khairul@CSLAB-1109-15[00m:[01;34m~/Downloads[00m$ cd akhda/
+]0;akhda.khairul@CSLAB-1109-15: ~/Downloads/akhda[01;32makhda.khairul@CSLAB-1109-15[00m:[01;34m~/Downloads/akhda[00m$ ls
+week08.pdf  [0m[01;34mwork08[0m
+]0;akhda.khairul@CSLAB-1109-15: ~/Downloads/akhda[01;32makhda.khairul@CSLAB-1109-15[00m:[01;34m~/Downloads/akhda[00m$ cd work08/
+]0;akhda.khairul@CSLAB-1109-15: ~/Downloads/akhda/work08[01;32makhda.khairul@CSLAB-1109-15[00m:[01;34m~/Downloads/akhda/work08[00m$ ls
+00-server.c  01-client.c  02-clisvr.c  lab08.txt  Makefile
+]0;akhda.khairul@CSLAB-1109-15: ~/Downloads/akhda/work08[01;32makhda.khairul@CSLAB-1109-15[00m:[01;34m~/Downloads/akhda/work08[00m$ ./01-cli[K[K[K[K[K[K[K[K;s[K[Kls
+00-server.c  01-client.c  02-clisvr.c  lab08.txt  Makefile
+]0;akhda.khairul@CSLAB-1109-15: ~/Downloads/akhda/work08[01;32makhda.khairul@CSLAB-1109-15[00m:[01;34m~/Downloads/akhda/work08[00m$ Makefile
+Makefile: command not found
+]0;akhda.khairul@CSLAB-1109-15: ~/Downloads/akhda/work08[01;32makhda.khairul@CSLAB-1109-15[00m:[01;34m~/Downloads/akhda/work08[00m$ ./01=[K-c;i[K[Klient 152.1 18.25.219 9001
+bash: ./01-client: No such file or directory
+]0;akhda.khairul@CSLAB-1109-15: ~/Downloads/akhda/work08[01;32makhda.khairul@CSLAB-1109-15[00m:[01;34m~/Downloads/akhda/work08[00m$ makefile
+makefile: command not found
+]0;akhda.khairul@CSLAB-1109-15: ~/Downloads/akhda/work08[01;32makhda.khairul@CSLAB-1109-15[00m:[01;34m~/Downloads/akhda/work08[00m$ Make
+No command 'Make' found, did you mean:
+ Command 'jake' from package 'node-jake' (universe)
+ Command 'cake' from package 'cakephp-scripts' (universe)
+ Command 'fake' from package 'fake' (universe)
+ Command 'make' from package 'make-guile' (universe)
+ Command 'make' from package 'make' (main)
+ Command 'rake' from package 'rake' (main)
+Make: command not found
+]0;akhda.khairul@CSLAB-1109-15: ~/Downloads/akhda/work08[01;32makhda.khairul@CSLAB-1109-15[00m:[01;34m~/Downloads/akhda/work08[00m$ ls
+00-server.c  01-client.c  02-clisvr.c  lab08.txt  Makefile
+]0;akhda.khairul@CSLAB-1109-15: ~/Downloads/akhda/work08[01;32makhda.khairul@CSLAB-1109-15[00m:[01;34m~/Downloads/akhda/work08[00m$ make
+gcc 00-server.c -o 00-server
+gcc 01-client.c -o 01-client
+gcc 02-clisvr.c -o 02-clisvr
+]0;akhda.khairul@CSLAB-1109-15: ~/Downloads/akhda/work08[01;32makhda.khairul@CSLAB-1109-15[00m:[01;34m~/Downloads/akhda/work08[00m$ make[2PlsMakemakefile./01-client 152.1118.25.219 9001
+ERROR connecting: Connection refused
+]0;akhda.khairul@CSLAB-1109-15: ~/Downloads/akhda/work08[01;32makhda.khairul@CSLAB-1109-15[00m:[01;34m~/Downloads/akhda/work08[00m$ sudo[K[K[K[Ksbin/[K[K[K[K[Kifconfig 
+enp1s0    Link encap:Ethernet  HWaddr 64:00:6a:30:07:06  
+          inet addr:152.118.25.219  Bcast:152.118.25.255  Mask:255.255.255.0
+          inet6 addr: fe80::2799:2bd5:5be2:6b42/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:109170 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:15083 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:31938112 (31.9 MB)  TX bytes:1674747 (1.6 MB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:5276 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:5276 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1 
+          RX bytes:602536 (602.5 KB)  TX bytes:602536 (602.5 KB)
+
+wlp2s0    Link encap:Ethernet  HWaddr 44:1c:a8:32:4a:13  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+]0;akhda.khairul@CSLAB-1109-15: ~/Downloads/akhda/work08[01;32makhda.khairul@CSLAB-1109-15[00m:[01;34m~/Downloads/akhda/work08[00m$ ifconfig ./01-client 152.1118.25.219 9001
+ERROR connecting: Connection refused
+]0;akhda.khairul@CSLAB-1109-15: ~/Downloads/akhda/work08[01;32makhda.khairul@CSLAB-1109-15[00m:[01;34m~/Downloads/akhda/work08[00m$ script -a catat-w eek08[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K./01-client 152.1118.25.219 9001
+ERROR connecting: Connection refused
+]0;akhda.khairul@CSLAB-1109-15: ~/Downloads/akhda/work08[01;32makhda.khairul@CSLAB-1109-15[00m:[01;34m~/Downloads/akhda/work08[00m$ ./01-client 152.1118.25.219 9001
+Enter the message: test t2
+[FROM SERVER] ACK MESSAGE...
+
+]0;akhda.khairul@CSLAB-1109-15: ~/Downloads/akhda/work08[01;32makhda.khairul@CSLAB-1109-15[00m:[01;34m~/Downloads/akhda/work08[00m$ ./01-client 152.1118.25.219 9001[1P 9001[1P 9001[1P 90012 90011 90017 9001
+ERROR connecting: Connection refused
+]0;akhda.khairul@CSLAB-1109-15: ~/Downloads/akhda/work08[01;32makhda.khairul@CSLAB-1109-15[00m:[01;34m~/Downloads/akhda/work08[00m$ ./01-client 152.1118.25.217 9001[K[K[K[K9002
+ERROR connecting: Connection refused
+]0;akhda.khairul@CSLAB-1109-15: ~/Downloads/akhda/work08[01;32makhda.khairul@CSLAB-1109-15[00m:[01;34m~/Downloads/akhda/work08[00m$ ./01-client 152.1118.25.217 9002 9002[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C9152.1[1@1[A]0;akhda.khairul@CSLAB-1109-15: ~/Downloads/akhda/work08[01;32makhda.khairul@CSLAB-1109-15[00m:[01;34m~/Downloads/akhda/work08[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C0152.[C[1@1[A]0;akhda.khairul@CSLAB-1109-15: ~/Downloads/akhda/work08[01;32makhda.khairul@CSLAB-1109-15[00m:[01;34m~/Downloads/akhda/work08[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C0152[1@.[A]0;akhda.khairul@CSLAB-1109-15: ~/Downloads/akhda/work08[01;32makhda.khairul@CSLAB-1109-15[00m:[01;34m~/Downloads/akhda/work08[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C215[1@2[A]0;akhda.khairul@CSLAB-1109-15: ~/Downloads/akhda/work08[01;32makhda.khairul@CSLAB-1109-15[00m:[01;34m~/Downloads/akhda/work08[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C 1[1@5
+ERROR connecting: Invalid argument
+]0;akhda.khairul@CSLAB-1109-15: ~/Downloads/akhda/work08[01;32makhda.khairul@CSLAB-1109-15[00m:[01;34m~/Downloads/akhda/work08[00m$ ./01-client 9002 1152.118.25.217 9002 [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+ERROR connecting: Invalid argument
+]0;akhda.khairul@CSLAB-1109-15: ~/Downloads/akhda/work08[01;32makhda.khairul@CSLAB-1109-15[00m:[01;34m~/Downloads/akhda/work08[00m$ [K]0;akhda.khairul@CSLAB-1109-15: ~/Downloads/akhda/work08[01;32makhda.khairul@CSLAB-1109-15[00m:[01;34m~/Downloads/akhda/work08[00m$ ./01-client 9002 152.118.25.217 9002 [1P[1@2
+bash: ./02-client: No such file or directory
+]0;akhda.khairul@CSLAB-1109-15: ~/Downloads/akhda/work08[01;32makhda.khairul@CSLAB-1109-15[00m:[01;34m~/Downloads/akhda/work08[00m$ ./02-client 9002 152.118.25.217 9002 [C[1P[1P[1P[1P[1P[1P[1P[7@-clisvr
+From gani.gemilar to akhda.khairul: Hello
+]0;akhda.khairul@CSLAB-1109-15: ~/Downloads/akhda/work08[01;32makhda.khairul@CSLAB-1109-15[00m:[01;34m~/Downloads/akhda/work08[00m$ [K]0;akhda.khairul@CSLAB-1109-15: ~/Downloads/akhda/work08[01;32makhda.khairul@CSLAB-1109-15[00m:[01;34m~/Downloads/akhda/work08[00m$ ./01-client 12-clisvr 9002 1152.118.25.217 9002 [A]0;akhda.khairul@CSLAB-1109-15: ~/Downloads/akhda/work08[01;32makhda.khairul@CSLAB-1109-15[00m:[01;34m~/Downloads/akhda/work08[00m$ [C[C[C[C[C[C[C[Cent
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A]0;akhda.khairul@CSLAB-1109-15: ~/Downloads/akhda/work08[01;32makhda.khairul@CSLAB-1109-15[00m:[01;34m~/Downloads/akhda/work08[00m$ [C[C[C1
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A]0;akhda.khairul@CSLAB-1109-15: ~/Downloads/akhda/work08[01;32makhda.khairul@CSLAB-1109-15[00m:[01;34m~/Downloads/akhda/work08[00m$ [C[C[C[C[C[C[C[C[C[C[C[C152.11[6P8.25.217 9002
+Enter the message: hallo
+
+]0;akhda.khairul@CSLAB-1109-15: ~/Downloads/akhda/work08[01;32makhda.khairul@CSLAB-1109-15[00m:[01;34m~/Downloads/akhda/work08[00m$ ./01-client 152.1118.25.217 9002[A]0;akhda.khairul@CSLAB-1109-15: ~/Downloads/akhda/work08[01;32makhda.khairul@CSLAB-1109-15[00m:[01;34m~/Downloads/akhda/work08[00m$ [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./01-client 152.1118.25.217 9002[A]0;akhda.khairul@CSLAB-1109-15: ~/Downloads/akhda/work08[01;32makhda.khairul@CSLAB-1109-15[00m:[01;34m~/Downloads/akhda/work08[00m$ [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls
+[0m[01;32m00-server[0m    [01;32m01-client[0m    [01;32m02-clisvr[0m    lab08.txt
+00-server.c  01-client.c  02-clisvr.c  Makefile
+]0;akhda.khairul@CSLAB-1109-15: ~/Downloads/akhda/work08[01;32makhda.khairul@CSLAB-1109-15[00m:[01;34m~/Downloads/akhda/work08[00m$ cd[K[Knano lab08.txt
+[?1049h[1;42r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J[40d(B[0;7mFile _ is being edited (by akhda.khairul with VIM 7.4, PID 7840); cont [41;1H Y(B[m Yes[42d(B[0;7m N(B[m No[42;17H(B[0;7m^C(B[m Cancel[40;71H[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3             New Buffer                                [40;1H(B[m[K[41d(B[0;7m^G(B[m Get Help   (B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut Text   (B[0;7m^J(B[m Justify[42d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Uncut Text (B[0;7m^T(B[m To Spell[3d[1;62H(B[0;7mModified[3d(B[mn[K[40d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?           [41;1H Y(B[m Yes[K[42d(B[0;7m N(B[m No  [15G  (B[0;7m^C(B[m Cancel[K[40;62H[J[42;71H[42;1H[?1049l[?1l>]0;akhda.khairul@CSLAB-1109-15: ~/Downloads/akhda/work08[01;32makhda.khairul@CSLAB-1109-15[00m:[01;34m~/Downloads/akhda/work08[00m$ nano lab08.txtls[K./01-client 152.1118.25.217 9002[A]0;akhda.khairul@CSLAB-1109-15: ~/Downloads/akhda/work08[01;32makhda.khairul@CSLAB-1109-15[00m:[01;34m~/Downloads/akhda/work08[00m$ [C[C[C2-clisvr 9002 152.118.25.217 9002 [A]0;akhda.khairul@CSLAB-1109-15: ~/Downloads/akhda/work08[01;32makhda.khairul@CSLAB-1109-15[00m:[01;34m~/Downloads/akhda/work08[00m$ [C[C[C1-client 152.11[6P8.25.217 9002[1P 9002[1P 9002[1P 90021 90029 90029 9002
+ERROR connecting: Connection refused
+]0;akhda.khairul@CSLAB-1109-15: ~/Downloads/akhda/work08[01;32makhda.khairul@CSLAB-1109-15[00m:[01;34m~/Downloads/akhda/work08[00m$ ./01-client 152.1118.25.199 9002[A]0;akhda.khairul@CSLAB-1109-15: ~/Downloads/akhda/work08[01;32makhda.khairul@CSLAB-1109-15[00m:[01;34m~/Downloads/akhda/work08[00m$ [3Pnano lab08.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K./02-clisvr null  152.118.25.199 9002
+ERROR connecting: Connection refused
+]0;akhda.khairul@CSLAB-1109-15: ~/Downloads/akhda/work08[01;32makhda.khairul@CSLAB-1109-15[00m:[01;34m~/Downloads/akhda/work08[00m$ ./02-clisvr null 1152.118.25.199 9002[A]0;akhda.khairul@CSLAB-1109-15: ~/Downloads/akhda/work08[01;32makhda.khairul@CSLAB-1109-15[00m:[01;34m~/Downloads/akhda/work08[00m$ [C[C[C1-client 152.11[5P[C[C[C[C[C[C[C[C[C[C[C[C[C[A]0;akhda.khairul@CSLAB-1109-15: ~/Downloads/akhda/work08[01;32makhda.khairul@CSLAB-1109-15[00m:[01;34m~/Downloads/akhda/work08[00m$ [3Pnano lab08.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?1049h[1;42r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J[40d(B[0;7mFile _ is being edited (by akhda.khairul with VIM 7.4, PID 7840); cont [41;1H Y(B[m Yes[42d(B[0;7m N(B[m No[42;17H(B[0;7m^C(B[m Cancel[40;71H[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3             New Buffer                      Modified  [3;1H(B[mi dijalankan didalam terminal, maka terminal yang menjalankan program $[5;17HTerminal juga akan mencek port dan socket dari termina$[7;17Hakan menampilkan pesan yang dikirimkan dari termnial c$[11;1H- 01-client.c : Ketika program dijalankan didalam terminal, terminal a$[13;17Hmenuliskan IP yang sedang digunakan. Setelah terhubung$[17;1H- 02-clisvr.c : Ketika program dijalankan, selanjutnya program akan te$[19;1H$asing terminal.[40d[K[41d(B[0;7m^G(B[m Get Help   (B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut Text   (B[0;7m^J(B[m Justify[42d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Uncut Text (B[0;7m^T(B[m To Spell[19;17H[42;1H[?1049l[?1l>[?1049h[1;43r[?12l[?25h[39;49m(B[m[4l[?7h[H[2J(B[0;7m  GNU nano 2.5.3             New Buffer                      Modified  [3;1H(B[mi dijalankan didalam terminal, maka terminal yang menjalankan program $[5;17HTerminal juga akan mencek port dan socket dari termina$[7;17Hakan menampilkan pesan yang dikirimkan dari termnial c$[11;1H- 01-client.c : Ketika program dijalankan didalam terminal, terminal a$[13;17Hmenuliskan IP yang sedang digunakan. Setelah terhubung$[17;1H- 02-clisvr.c : Ketika program dijalankan, selanjutnya program akan te$[19;1H$asing terminal.[41d(B[0;7m^G(B[m Get Help   (B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut Text   (B[0;7m^J(B[m Justify[42d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Uncut Text (B[0;7m^T(B[m To Spell[19;17H[?1h=[?1h=[?1h=[H[2J(B[0;7m  GNU nano 2.5.3             New Buffer                      Modified  [3;1H(B[mi dijalankan didalam terminal, maka terminal yang menjalankan program $[5;17HTerminal juga akan mencek port dan socket dari termina$[7;17Hakan menampilkan pesan yang dikirimkan dari termnial c$[11;1H- 01-client.c : Ketika program dijalankan didalam terminal, terminal a$[13;17Hmenuliskan IP yang sedang digunakan. Setelah terhubung$[17;1H- 02-clisvr.c : Ketika program dijalankan, selanjutnya program akan te$[19;1H$asing terminal.[41d(B[0;7m^G(B[m Get Help   (B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut Text   (B[0;7m^J(B[m Justify[42d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Uncut Text (B[0;7m^T(B[m To Spell[19;17H[20d[L[19;17H[43;1H[?1049l[?1l>[?1049h[1;43r[?12l[?25h[39;49m(B[m[4l[?7h[H[2J(B[0;7m  GNU nano 2.5.3             New Buffer                      Modified  [3d(B[mi dijalankan didalam terminal, maka terminal yang menjalankan program $[5;17HTerminal juga akan mencek port dan socket dari termina$[7;17Hakan menampilkan pesan yang dikirimkan dari termnial c$[11d- 01-client.c : Ketika program dijalankan didalam terminal, terminal a$[13;17Hmenuliskan IP yang sedang digunakan. Setelah terhubung$[17d- 02-clisvr.c : Ketika program dijalankan, selanjutnya program akan te$[19d$asing terminal.[42d(B[0;7m^G(B[m Get Help   (B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut Text   (B[0;7m^J(B[m Justify[43d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Uncut Text (B[0;7m^T(B[m To Spell[19;17H[?1h=[?1h=[?1h=[H[2J(B[0;7m  GNU nano 2.5.3             New Buffer                      Modified  [3d(B[mi dijalankan didalam terminal, maka terminal yang menjalankan program $[5;17HTerminal juga akan mencek port dan socket dari termina$[7;17Hakan menampilkan pesan yang dikirimkan dari termnial c$[11d- 01-client.c : Ketika program dijalankan didalam terminal, terminal a$[13;17Hmenuliskan IP yang sedang digunakan. Setelah terhubung$[17d- 02-clisvr.c : Ketika program dijalankan, selanjutnya program akan te$[19d$asing terminal.[42d(B[0;7m^G(B[m Get Help   (B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut Text   (B[0;7m^J(B[m Justify[43d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Uncut Text (B[0;7m^T(B[m To Spell[19;17H[1;30H(B[0;7m          [1;54HNew Buffer                                                                      Modified  [3;71H(B[mini akan bertindak server. Selanjutnya program akan mengunggu sampai ada$[5;71Hl client, jika keduanya cocok maka kedua terminal akan saling terhubung.$[7;71Hlient.[11;71Hkan bertindak sebagai terminal client. Berikutnya agar dapat terhubung d$[13;71H, berikutnya terminal client bisa mengirim pesan kepada terminal server.[17;71Hrhubung ke beberapa termnial dengan memasukan IP dari masing-masing term$[19;2H[9P[42;15H (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7m^Y(B[m Prev Page   (

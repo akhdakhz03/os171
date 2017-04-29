@@ -1,0 +1,30 @@
+1. secara umum program ini menampilkan keseluruhan proses yang sedang berjalan 
+pada lingkungan server dimana dia berada.  
+
+2. program ini menampilkan hasil yang kurang lebih sama dengan command top
+perbedaan nya adalah command top berjalan secara "real time", lalu ada 
+beberapa data yang tidak ditampilkan pada program ini.
+
+3. terdapat dua library dari c yang menjadi inti dari program ini, malloc(), dan system()
+
+4. malloc() merupakan library yang berfungsi untuk mengalokasi kan memori
+
+5. system() merupakan library yang berfungsi untuk menerima suatu command linux untuk di eksekusi oleh command proses dan ditampilkan sebagaimana command tersebut dijalankan pada lingkungan linux.
+
+6. baris kode yang berfungsi untuk menampilkan perintah adalah
+sprintf(strSYS2, "top -b -n 1 -p%d | tail -5", myPID);
+sprintf(strSYS1, "top -b -n 1 -p%d | tail -1", myPID);
+
+7. pada top -h -n l -p%d | tail -5/-1
+baris kode ini mengeksekusi perintah top dengan beberapa key yang berfungsi sebagai berikut :
+-b :   -b  :Batch-mode operation
+            Starts top in 'Batch' mode, which could be useful for  send‐
+            ing output from top to other programs or to a file.  In this
+            mode, top will not accept input and runs  until  the  itera‐
+            tions  limit you've set with the '-n' command-line option or
+            until killed.
+       -n  :Number-of-iterations limit as:  -n number
+            Specifies the maximum number of iterations, or  frames,  top
+            should produce before ending.
+
+q

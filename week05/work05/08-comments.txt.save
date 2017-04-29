@@ -1,0 +1,32 @@
+1. secara umum program ini menampilkan keseluruhan proses yang sedang berjalan 
+pada lingkungan server dimana dia berada.  
+
+2. program ini menampilkan hasil yang kurang lebih sama dengan command top
+perbedaan nya adalah command top berjalan secara "real time", lalu ada 
+beberapa data yang tidak ditampilkan pada program ini.
+
+3. terdapat dua library dari c yang menjadi inti dari program ini, malloc(), dan system()
+
+4. malloc() merupakan library yang berfungsi untuk mengalokasi kan memori.
+pada program ini mendefiniskan 6 buah ukuran memori sebagai parameter dari fungsi malloc()
+#define MSIZE1 0x10000
+#define MSIZE2 0x20000
+#define MSIZE3 0x50000
+#define MSIZE4 0x100000
+#define MSIZE5 0x1000000
+#define MSIZE6 0x10000000
+
+5. system() merupakan library yang berfungsi untuk menerima suatu command linux untuk di eksekusi oleh command proses dan ditampilkan sebagaimana command tersebut dijalankan pada lingkungan linux.
+
+6. baris kode yang berfungsi untuk menampilkan perintah adalah
+sprintf(strSYS2, "top -b -n 1 -p%d | tail -5", myPID);
+sprintf(strSYS1, "top -b -n 1 -p%d | tail -1", myPID);
+
+7. pada top -h -n l -p%d | tail -5/-1
+baris kode ini mengeksekusi command top dengan beberapa key yang berfungsi sebagai berikut :
+-b    :  pada mode ini command top akan berjalan hingga iterasi berakhir.
+         command ini dikombinasikan dengan command -n untuk membatasi berapa jumlah iterasi yang akan terjadi.
+-n 1  :  jumlah iterasi maksimal nya adalah 1
+-p%d  :  memonitor proses dengan spesifik PID yang di lewatkan melalui 
+         variabel myPID.
+
