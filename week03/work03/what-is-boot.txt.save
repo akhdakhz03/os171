@@ -1,6 +1,0 @@
-Hello, this is explanation about booting
-
-Assuming that machine is running with BIOS and Grub as bootloader. 
-the step of linux booting processs explained below :
-1. Power on :BIOS POST execution
-   when you switch on the computer it will executes the instructio located 
